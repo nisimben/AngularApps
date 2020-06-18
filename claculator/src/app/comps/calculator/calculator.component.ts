@@ -11,6 +11,7 @@ export class CalculatorComponent implements OnInit {
 
   @ViewChild('myInput') myCorrect: ElementRef
 
+
   myInput: string = '';
   inputNumber: string = '';
   sumNum: number = 0;
@@ -45,6 +46,12 @@ export class CalculatorComponent implements OnInit {
     this.inputNumber = key;
     this.result = this.inputNumber;
   }
+  addTo():void {
+    this.srvHistory.arrArchive  = this.srvHistory.arrHistory
+
+  }
+
+
 
 
   constructor(public srvHistory: ServicesService) { }

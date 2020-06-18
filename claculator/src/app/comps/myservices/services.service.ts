@@ -6,5 +6,6 @@ import { Injectable } from '@angular/core';
 export class ServicesService {
 
   constructor() { }
-  arrHistory: string[] = []
+  arrHistory : string[] = []
+  arrArchive : string[] = []
 }

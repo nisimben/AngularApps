@@ -1,6 +1,13 @@
-li {
-  border: 1px solid blueviolet;
-}
 .wrap {
-  border: solid 1px orangered;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: solid 1px rgb(90, 26, 3);
+}
+li {
+  width: 200px;
+  border: 2px solid rgb(74, 53, 94);
+  padding: 10%;
+  margin: 10px;
 }
